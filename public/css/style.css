@@ -1,47 +1,69 @@
-
-
-  * {
+   body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
    
-    font-family:  'Merriweather', serif;
-    font-weight: 400;
-     font-style: normal;
-     justify-content: center;
-    align-items: center;
-    text-align: center;
   }
+  
 
-  #intro {
+  .intro {
     display: flex;
     flex-direction: column;
     align-items: center; /* Alinea los elementos con espacio entre ellos */
-    background-color: #020912;
-    min-height: 680px;
     color: #FFFFFF;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: solid 3px green;
     padding: 0 15px; /* Agrega un poco de padding horizontal si es necesario */
+    background-color: #020912;
 }
 
 
-  #intro img{
-    width: 90px; 
-    margin-right: 10px; 
-  }
 
-  .Title {
-    margin: 0; /* Elimina el margen */
-    padding: 50px; /* Usa padding si es necesario */
+ .background {
+  border: solid 3px gold;
+ }
+
+ .education {
+  border: solid 3px chocolate ;
+ }
+
+ .skills{
+  border: solid 3px aqua ;
+ }
+
+ .hobbies {
+  border: solid 3px fuchsia;
+ }
+
+ .form{
+  border: solid 3px blue;
+ }
+
+ .sche{
+  border: solid 3px rebeccapurple;
+ }
+
+ .HWM {
+  border: solid 3px red;
+ }
+
+ 
+
+/*
+ .Title {
+    margin: 0; 
+    padding: 50px; 
     color: #FFFFFF;
 }
 
 
-  /* h1{
+   h1{
     font-family: 'Sacramento', cursive;
     color:#36454F;
     font-size: 5.5rem; 
     margin: 50px;
   }
-*/
+
+
   h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
@@ -71,7 +93,7 @@
   a:hover {
     color: green; 
 }
-.edu img{
+.education img{
   max-width: 100px;
   max-height: 100px;
 }
@@ -174,7 +196,7 @@ th, td {
   background-color: white ;
  }
 
- /* Three columns side by side */
+
 .column {
   float: left;
   width: 33.3%;
@@ -182,7 +204,7 @@ th, td {
   padding: 0 8px;
 }
 
-/* Display the columns below each other instead of side by side on small screens */
+
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
@@ -190,17 +212,17 @@ th, td {
   }
 }
 
-/* Add some shadows to create a card effect */
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Some left and right padding inside the container */
+
 .container {
   padding: 0 16px;
 }
 
-/* Clear floats */
+
 .container::after, .row::after {
   content: "";
   clear: both;
@@ -226,3 +248,5 @@ th, td {
 .button:hover {
   background-color: #555;
 }
+
+*/

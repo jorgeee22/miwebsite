@@ -11,24 +11,23 @@
 </head>
 
 <body>
-
-    <div id="intro">
-     <div>
+ 
+  <%- include('partials/navbar') %>
+ 
+    <div class ="intro row" >
+     <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
        <img src="img/yo.jpg" alt="Logo" class="img-fluid" />
      </div>
-     <div class="Title">
+     <div class="Title col-sm-12 col-md-4 col-lg-4 col-xl-4">
        <h1>Hi, I am Jorge Ruiz</h1> 
        <p><strong> Student of ISGC</strong></p>
      </div>
-      <div class="col-md-1">
+      <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
         <a class="btn btn-primary" href="/destination" role="button">See my favorites spots</a>
       </div>
   </div>
-     
 
-
-
- <div>
+<!-- <div>
       I am a person who likes to study, play basketball, go to gym and spend time with the family and friends. My goal is to develop 
       my programming abilities and be a proffesional and have my dream car, the audi R8.</p> 
     <blockquote> "I am iron man"  <br/> <b>Tony Stark</b> </blockquote>  
@@ -37,8 +36,8 @@
  <div>
     <p>These are some of <a href="/destination" >my favorite 
       spots</a>. But the best is this <a href="destination.ejs#chi">one.</a>
-    <!--  This a link to <a href="https://www.google.com/">Google</a><br/>
-  These are the <a href = "#bdays">birthdays</a> of my family. </p>  -->
+      This a link to <a href="https://www.google.com/">Google</a><br/>
+  These are the <a href = "#bdays">birthdays</a> of my family. </p>  
  </div>
 
  <div>
@@ -59,8 +58,9 @@
 
 <div>
 <a href="destination.ejs#chi"> Chicago  </a>
-
-<div>
+-->
+<!--
+<div class = "background">
     <h2> Background </h2>
     <p>
       I am from the city of Los Mochis, Sinaloa, but currently living in Guadalajara. After graduating of high school, I traveled 
@@ -70,7 +70,8 @@
     </p>
  </div>
 
-<div class="edu">
+
+<div class="education">
     <h2> Education </h2>
     <ul>
      <li> <em>2006-2010</em> : <b><a href="https://www.nuevasenda.com/" target="_blank">Colegio Nueva Senda</a></b> 
@@ -84,7 +85,7 @@
     </ul>
  </div>
 
-<div>
+<div class = "skills">
     <h2> Skills </h2>
      <ol>
         <li>Basketball 40%</li>
@@ -93,13 +94,14 @@
         <li>Data Analisis 10%</li>
         <li>Cooking 5%</li>
       </ol>
-    
-      
  </div>
 
-<div>
+  <div class = "hobbies">
     <h2> Hobbies </h2>
-       <h3> Favorite food </h3>
+  </div>
+--> 
+     <!--
+      <h3> Favorite food </h3>
         
         Top 5:
         <ol>
@@ -149,8 +151,9 @@
              </ul>  
              
     </div>
- 
-   <!-- <div> 
+ -->
+
+    <!-- <div> 
       <h2 id = "bdays">Family Birthdays</h2>
           
       <table >
@@ -183,7 +186,7 @@
 
  </div> -->
 
- <!-- < <div>
+   <!-- < <div>
       <h2>Agenda</h2>
       <form action ="#" method = "POST">
         <label for = "event">Event</label>
@@ -198,7 +201,9 @@
       </form>
  </div>      
       -->
-    <div>
+    
+ <!-- 
+    <div class="form">
       <h2>Weekly Schedule Form</h2>
       <form action="#" method="post">
         <label for="date">Date</label><br>
@@ -235,35 +240,34 @@
         <input type="checkbox" id="status" name="status" value="busy"> Busy<br>
 
         <input type="submit" value="Add Event">
-    </form>
+     </form>
+   </div>      
 
-</div>      
-
- <div>
-  <h2>Weekly Schedule</h2>
-  <table border="1">
-      <thead>
-          <tr>
-              <th>Date</th>
-              <th>Start</th>
-              <th>End</th>
-              <th>Activity</th>
-              <th>Place</th>
-              <th>Type</th>
-              <th>Notes</th>
-              <th>Free/Busy</th>
+   <div class = "sche" >
+     <h2>Weekly Schedule</h2>
+      <table border="1">
+        <thead>
+           <tr>
+               <th>Date</th>
+               <th>Start</th>
+               <th>End</th>
+               <th>Activity</th>
+               <th>Place</th>
+               <th>Type</th>
+               <th>Notes</th>
+               <th>Free/Busy</th>
+            </tr>
+         </thead>
+       <tbody>
+           <tr>
           </tr>
-      </thead>
-      <tbody>
-          <tr>
-          </tr>
-      </tbody>
-  </table>
-</div>
+       </tbody>
+     </table>
+   </div>
 
 
  
- <div>
+  <div class="HWM">
      <h2>Heroes, Writers, Musicians</h2>
 
      <div class="row">
@@ -306,12 +310,13 @@
         </div>
       </div>
     </div>
- </div>  
- 
-   <div>
+  </div>  
+--> 
+   <!-- <div>
       <a href="/"><p>Go to Top</p></a>
    </div>  
-
+  -->
+   
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
    crossorigin="anonymous"></script>
