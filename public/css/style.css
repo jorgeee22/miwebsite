@@ -1,19 +1,17 @@
    body {
-    overflow-x: hidden;
     margin: 0;
     padding: 0;
-   
   }
   
-
   .intro {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Alinea los elementos con espacio entre ellos */
+    align-items: center;
     color: #FFFFFF;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 0 15px; /* Agrega un poco de padding horizontal si es necesario */
     background-color: #020912;
+    margin: 0; 
+    min-height: 639px;
 }
 
 
